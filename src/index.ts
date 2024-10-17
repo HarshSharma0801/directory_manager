@@ -8,7 +8,7 @@ const path = require("path");
 
 const program = new Command();
 
-console.log(figlet.textSync("Custom Manager"));
+console.log(figlet.textSync("Custom DirManager"));
 
 
 program

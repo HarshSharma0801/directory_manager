@@ -14,7 +14,7 @@ const { Command } = require("commander");
 const fs = require("fs");
 const path = require("path");
 const program = new Command();
-console.log(figlet.textSync("Custom Manager"));
+console.log(figlet.textSync("Custom DirManager"));
 program
     .version("1.0.0")
     .description("Custom CLI for managing a directory")
